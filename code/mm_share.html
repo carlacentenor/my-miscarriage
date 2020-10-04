@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="UTF-8">
+    <!-- <p>Mobil device scaling friendly spec. </p> -->
+  <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+  <title>share</title>
+  <!-- <p>Accessing the CSS info </p> -->
+  <link rel="stylesheet" type="text/css" href="mmstyle.css">
+
+  <!-- font for headers! THIS SHALL ME MOVED TO THE STYLESHEET --> 
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+  <!-- font for paragraph! THIS SHALL ME MOVED TO THE STYLESHEET -->
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <nav>
+    <div><a href="mm_index.html">Home</a></div> |
+    <div><a href="mm_about.html">About</a></div> |
+    <div><a href="mm_share.html">Share</a></div> |
+  </nav>
+
+  <header>
+  <h2>This is the sharing part</h2>
+  </header> 
+  
+
+  <form method ="post">
+   <label for ="name"> Your name/alias</label>
+    <input type="text" id = "name" required><br>
+    <label for ="email"> Your email</label>
+    <input type="email" name ="email" id = "email"><br>
+    <label for ="weeks"> weeks</label>
+    <select id = "weeks" name="weeks ">
+      <option value = "week 6">Week 6</option>
+      <option value = "week 7">Week 7</option>
+      <option value = "week 8">Week 8</option>
+      <option value = "week 9">Week 9</option>
+      <option value = "week 10">Week 10</option>
+      <option value = "week 11">Week 11</option>
+      <option value = "week 12">Week 12</option>
+    </select>
+
+    <br><br>
+
+    <strong>Experienced Physical Painlevel:</strong>
+
+    <br>
+    <label>
+      <input type="radio" name="editList" value="Painless"/> Painless
+    </label>
+    <label>
+      <input type="radio" name="editList" value="painful"/> Painful
+    </label>
+    <label>
+      <input type="radio" name="editList" value="severepain"/> Severe Pain
+  </label>
+  <br><br>
+    <!-- scale 1-5: this does not really work -->
+
+  <strong>Experienced  Mental Painlevel:</strong>
+  <br>
+  <input type="range" list="tickmarks">
+  <datalist id="tickmarks">
+    <option value="0" label="Painless"></option>
+    <option value="50" label="Pain"></option>
+    <option value="100" label="Very painful"></option>
+  </datalist>
+
+  <br><br>
+
+<strong>Did you get help from the hosptial?</strong><br>
+<label>
+  <input type="radio" name="editList" value="yes"/> Yes
+</label>
+<label>
+  <input type="radio" name="editList" value="No"/> No
+</label><br><br>
+
+<strong>Did your period pain change after the miscarriage?</strong>
+<br>
+<label>
+  <input type="radio" name="editList" value="yes"/> Yes
+</label>
+<label>
+  <input type="radio" name="editList" value="No"/> No
+</label>
+<br><br>
+
+<strong>Did your period change after the miscarriage?</strong>
+<br>
+<label>
+  <input type="radio" name="editList" value="increased"/> Increased
+</label>
+<label>
+  <input type="radio" name="editList" value="Decreasd"/> Decreasd
+</label>
+<label>
+  <input type="radio" name="editList" value="Unchanged"/> Unchanged
+</label>
+
+  <!-- More questions and add labels -->
+
+    <br><br>
+  <label for ="message"></label>
+  <textarea style="width: 400px;height: 200px;">Share your miscarriage testimony in more detail here </textarea><br>
+  <input type="submit" value ="Send!">
+  </form>
+  <br><br>
+
+  <!-- Where submitting the content: -->
+
+  <footer>
+    This page represent testimonies of experienced miscarriages only. The content is not intended as a substitute for professional medical advice, diagnosis, or treatment.
+    Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. 
+    <br><br>
+    
+    &copy; MM 2020
+  </footer>
+
+</body>
+</div>
+
+</html>
