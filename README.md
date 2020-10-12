@@ -2,7 +2,7 @@
 MM is a personal project created to share testimonies of experienced miscarriages.
 
 ## Why?
-There is very little information that could help a menstruator prepare or just feel less alone. Since roughly 15 - 20% of all pregnancies ends with a miscarriage. According to UNICEF, every minute 258 babies are born - I leave it to you to estimate how many menstruators who had to go through a misscarriage. 
+There is very little information that could help a menstruator prepare or just feel less alone. Roughly 15 - 20% of all pregnancies in a miscarriage. According to UNICEF, every minute 258 babies are born - I leave it to you to estimate how many menstruators who had to go through a misscarriage. 
 
 ## Webpage 
 At the moment MM is having its skeleton created. The code is all over the place, but will be cleaned, modified and more effective as time passes. 
